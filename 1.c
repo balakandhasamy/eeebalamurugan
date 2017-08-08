@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    double number;
+    int n;
 
     printf("Enter a number: ");
-    scanf("%lf", &number);
+    scanf("%d", &n);
 
-    if (number <= 0.0)
+    if (n <= 0.0)
     {
-        if (number == 0.0)
+        if (n == 0.0)
             printf("You entered 0.");
         else
             printf("You entered a negative number.");
