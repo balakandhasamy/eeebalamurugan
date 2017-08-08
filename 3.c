@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    char z;
+    char y;
     int Lowercase, Uppercase;
 
     printf("Enter an alphabet: ");
-    scanf("%c",&z);
-    Lowercase = (z == 'a' || z == 'e' || z == 'i' || z == 'o' || z == 'u');
+    scanf("%c",&y);
+    Lowercase = (y == 'a' || y == 'e' || y == 'i' || y == 'o' || y == 'u');
 
-    Uppercase = (z == 'A' || z == 'E' || z == 'I' || z == 'O' || z == 'U');
+    Uppercase = (y == 'A' || y == 'E' || y == 'I' || y == 'O' || y == 'U');
 
     if (Lowercase || Uppercase)
-        printf("%c is a vowel.", z);
+        printf("%c is a vowel.", y);
     else
-        printf("%c is a consonant.", z);
+        printf("%c is a consonant.", y);
     return 0;
 }
