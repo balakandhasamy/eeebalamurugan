@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int num;
+    int a;
 
     printf("Enter an integer: ");
-    scanf("%d", &num);
-    if(num % 2 == 0)
-        printf("%d is even.", num);
+    scanf("%d", &a);
+    if(a% 2 == 0)
+        printf("%d is even.", a);
     else
-        printf("%d is odd.", num);
+        printf("%d is odd.", a);
 
     return 0;
 }
