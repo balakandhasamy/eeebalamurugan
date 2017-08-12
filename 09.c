@@ -2,14 +2,15 @@
 int main()
 {
 int n, j, sum = 0;
- printf("Enter a  integer: ");
+ printf("Enter a  number is ");
     scanf("%d",&n);
 
     for(j=1; j <= n; ++j)
     {
-        sum += j; 
+  printf("%d",j);
+     sum=sum+j;
     }
- printf("Sum = %d",sum);
+ printf("Sum of %d: is %d",n,sum);
 
     return 0;
 
