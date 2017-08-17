@@ -1,19 +1,21 @@
+
 #include <iostream>
-	using namespace std;
-	int main()
-	{
-	 int b;
-	 int i;
-	 cout<<" enter number "<<endl;
-	 cin>>b;
-	 cout<<" enter number "<<endl;
-	 cin>>i;
-	 cout<<"*********************************"<<endl;
-	 cout<<" programology student site "<<endl;
-	 cout<<"**********************************"<<endl;
-	 for(;b<=i;)
-	 {
-	 cout<<b<<endl;
-	 b=b+2;
-	 }
-	}
+using namespace std;
+int main()
+{
+ 
+ int x;
+ int g;
+ cout<<" enter number "<<endl;
+ cin>>x;
+ cout<<" enter number "<<endl;
+ cin>>g;
+ cout<<"*********************************"<<endl;
+ cout<<" programology student site "<<endl;
+ cout<<"**********************************"<<endl;
+ for(;x<=g;)
+ {
+ cout<<x<<endl;
+ x=x+2;
+ }
+}
